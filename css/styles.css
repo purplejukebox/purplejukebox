@@ -542,12 +542,12 @@ input[type='checkbox'] {
 }
 
 .navbar .fa-stack-2x {
-	color: #c2337b;
+	color: #adaeb3;
 	transition: all 0.2s ease;
 }
 
 .navbar .fa-stack-1x {
-	color: #ffffff;
+	color: #000000;
 	transition: all 0.2s ease;
 }
 
@@ -571,7 +571,7 @@ input[type='checkbox'] {
 /*****************/
 .header {
 	padding-top: 7rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/header-background.jpg') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/38_10Novembro_DJI_0599.jpg') center center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
@@ -1155,7 +1155,7 @@ a:hover.back-to-top {
 }
 
 .ex-cards-1 .card .fa-stack-2x {
-	color: #c2337b;
+	color: #000000;
 }
 
 .ex-cards-1 .card .fa-stack-1x {

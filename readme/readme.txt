@@ -31,7 +31,7 @@ All images are included in the download package and can be reused in your projec
 - Projects: https://www.pexels.com/photo/three-women-looking-at-a-phone-3183192/
 - Projects: https://www.pexels.com/photo/three-unpaired-multicolored-leather-sneakers-on-display-2300334/
 - Sobre Nós: https://www.pexels.com/photo/3184186/
-- Contact background: https://www.pexels.com/photo/people-on-a-video-call-4226140/
+- Contacto background: https://www.pexels.com/photo/people-on-a-video-call-4226140/
 - Article details image large: https://www.pexels.com/photo/photo-of-imac-near-macbook-1029757/ 
 - Article details image small: https://www.pexels.com/photo/apple-office-internet-ipad-38544/
 

@@ -63,7 +63,7 @@
     /* Text Slider - Swiper */
 	var textSlider = new Swiper('.text-slider', {
         autoplay: {
-            delay: 4000,
+            delay: 14000,
             disableOnInteraction: false
 		},
         loop: true,

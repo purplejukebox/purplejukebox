@@ -14,7 +14,7 @@ Table Of Contents:
 - Projects
 - Sobre Nós
 - Invitation
-- Contact
+- Contacto
 - Footer
 - Copyright
 - Back To Top Button 
@@ -819,7 +819,7 @@ input[type='checkbox'] {
 .basic-4 {
 	padding-top: 9rem;
 	padding-bottom: 9rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/mission-background.jpg') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/foto_pj_guitars.jpg') center center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
@@ -964,12 +964,12 @@ input[type='checkbox'] {
 
 
 /*******************/
-/*     Contact     */
+/*     Contacto     */
 /*******************/
 .form-1 {
 	padding-top: 9.5rem;
 	padding-bottom: 8.5rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/contact-background.jpg') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/contacto-background.jpg') center center no-repeat;
 	background-size: cover;
 }
 
@@ -1198,7 +1198,7 @@ a:hover.back-to-top {
 	/* end of details 2 */
 
 
-	/* Contact */
+	/* Contacto */
 	.form-1 form {
 		width: 500px;
 		margin-right: auto;
@@ -1209,7 +1209,7 @@ a:hover.back-to-top {
 		display: inline-block;
 		margin-right: 1rem;
 	}
-	/* end of contact */
+	/* end of contacto */
 
 
 	/* Extra Pages */
@@ -1600,7 +1600,7 @@ a:hover.back-to-top {
 	.basic-5 .media-body {
 		margin-left: 1.5rem;
 	}
-	/* end of strengths */
+	/* end of sobrenos */
 
 
 	/* Projects */

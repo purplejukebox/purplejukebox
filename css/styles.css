@@ -1419,21 +1419,21 @@ a:hover.back-to-top {
 
 	.footer .footer-col.first {
 		display: inline-block;
-		width: 320px;
+		width: 200px;
 		margin-right: 1.75rem;
 		vertical-align: top;
 	}
 	
 	.footer .footer-col.second {
 		display: inline-block;
-		width: 320px;
+		width: 250px;
 		margin-right: 1.75rem;
 		vertical-align: top;
 	}
 	
 	.footer .footer-col.third {
 		display: inline-block;
-		width: 224px;
+		width: 270px;
 		text-align: right;
 		vertical-align: top;
 	}

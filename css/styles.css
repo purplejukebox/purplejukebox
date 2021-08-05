@@ -114,6 +114,12 @@ h6 {
 	line-height: 1.5rem;
 }
 
+.credits-author {
+	font-weight: 500;
+	font-size: 0.7rem;
+	line-height: 1.5rem;
+}
+
 .li-space-lg li {
 	margin-bottom: 0.5rem;
 }
@@ -152,6 +158,16 @@ a:hover {
 	margin-bottom: 0.75rem;
 	border: none;
 	background-color: #c2337b;
+}
+
+.hr-heading-2 {
+	display: block;
+	width: 20rem;
+	height: 1px;
+	margin-top: 0.75rem;
+	margin-bottom: 0.75rem;
+	border: none;
+	background-color: #000000;
 }
 
 .btn-solid-reg {

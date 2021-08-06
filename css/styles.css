@@ -1410,7 +1410,263 @@ a:hover.back-to-top {
 	}
 	/* end of invitation */
 
+/*--------------------------------------------------
+    [Masonry Grid]
+----------------------------------------------------*/
+.masonry-grid {
+	margin: 0 -2px;
+  }
+  
+  .masonry-grid:before, .masonry-grid:after {
+	content: " ";
+	display: table;
+  }
+  
+  .masonry-grid:after {
+	clear: both;
+  }
+  
+  .masonry-grid .masonry-grid-item {
+	display: block;
+	width: 19.99%;
+	float: right;
+	vertical-align: top;
+	padding: 0 2px;
+	margin-bottom: 4px;
+  }
+  
+  .masonry-grid .masonry-grid-item.col-12 {
+	width: 100%;
+  }
+  
+  .masonry-grid .masonry-grid-item.col-11 {
+	width: 91.66666667%;
+  }
+  
+  .masonry-grid .masonry-grid-item.col-10 {
+	width: 83.33333333%;
+  }
+  
+  .masonry-grid .masonry-grid-item.col-9 {
+	width: 75%;
+  }
+  
+  .masonry-grid .masonry-grid-item.col-8 {
+	width: 66.66666667%;
+  }
+  
+  .masonry-grid .masonry-grid-item.col-7 {
+	width: 58.33333333%;
+  }
+  
+  .masonry-grid .masonry-grid-item.col-6 {
+	width: 50%;
+  }
+  
+  .masonry-grid .masonry-grid-item.col-5 {
+	width: 41.66666667%;
+  }
+  
+  .masonry-grid .masonry-grid-item.col-4 {
+	width: 33.33333333%;
+  }
+  
+  .masonry-grid .masonry-grid-item.col-3 {
+	width: 25%;
+  }
+  
+  .masonry-grid .masonry-grid-item.col-2 {
+	width: 16.66666667%;
+  }
+  
+  .masonry-grid .masonry-grid-item.col-1 {
+	width: 8.33333333%;
+  }
 
+ 
+
+  /* Media Queries below 768px */
+  @media (max-width: 768px) {
+	.masonry-grid .masonry-grid-item {
+	  width: 50%;
+	}
+	.masonry-grid .masonry-grid-item.col-12, .masonry-grid .masonry-grid-item.col-11, .masonry-grid .masonry-grid-item.col-10, .masonry-grid .masonry-grid-item.col-9, .masonry-grid .masonry-grid-item.col-8, .masonry-grid .masonry-grid-item.col-7, .masonry-grid .masonry-grid-item.col-6, .masonry-grid .masonry-grid-item.col-5, .masonry-grid .masonry-grid-item.col-4, .masonry-grid .masonry-grid-item.col-3, .masonry-grid .masonry-grid-item.col-2, .masonry-grid .masonry-grid-item.col-1 {
+	  width: 50%;
+	}
+  }
+  
+  /* Media Queries below 600px */
+  @media (max-width: 600px) {
+	.masonry-grid .masonry-grid-item {
+	  width: 100%;
+	}
+	.masonry-grid .masonry-grid-item.col-12, .masonry-grid .masonry-grid-item.col-11, .masonry-grid .masonry-grid-item.col-10, .masonry-grid .masonry-grid-item.col-9, .masonry-grid .masonry-grid-item.col-8, .masonry-grid .masonry-grid-item.col-7, .masonry-grid .masonry-grid-item.col-6, .masonry-grid .masonry-grid-item.col-5, .masonry-grid .masonry-grid-item.col-4, .masonry-grid .masonry-grid-item.col-3, .masonry-grid .masonry-grid-item.col-2, .masonry-grid .masonry-grid-item.col-1 {
+	  width: 100%;
+	}
+  }
+
+/*End of Mansory Grid */
+
+/*------------------------------------------------------------------
+  	[Work]
+------------------------------------------------------------------*/
+/* Overlay */
+.work {
+	position: relative;
+	display: block;
+  }
+  
+  .work .work-overlay {
+	position: relative;
+	cursor: pointer;
+  }
+  
+  .work .work-overlay:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	content: " ";
+	transition-duration: 300ms;
+	transition-property: all;
+	transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+  }
+  
+  .work:hover .work-overlay:before {
+	background: rgba(0, 0, 0, 0.5);
+	transition-duration: 300ms;
+	transition-property: all;
+	transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+  }
+  
+  /* Popup */
+  .work .work-popup-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	overflow-x: hidden;
+	background: rgba(81, 87, 105, 0.4);
+	transition-duration: 300ms;
+	transition-property: all;
+	transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+  }
+  
+  .work .work-popup-overlay-show {
+	opacity: 1;
+	visibility: visible;
+	-webkit-backface-visibility: visible;
+	backface-visibility: visible;
+	transition-duration: 300ms;
+	transition-property: all;
+	transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+  }
+  
+  .work .work-popup-content {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	width: 730px;
+	height: auto;
+	display: block;
+	background: #fff;
+	padding: 30px;
+	margin: 0 auto;
+	-webkit-transform: translate3d(0, -50%, 0);
+	-moz-transform: translate3d(0, -50%, 0);
+	transform: translate3d(0, -50%, 0);
+  }
+  
+  .work .work-popup-content-divider {
+	border-right: 1px solid #cdcecf;
+  }
+  
+  @media (max-width: 768px) {
+	.work .work-popup-content {
+	  width: 95%;
+	}
+	.work .work-popup-content-divider {
+	  border-right: none;
+	  border-bottom: 1px solid #cdcecf;
+	}
+  }
+  
+  .work .work-popup-close {
+	float: right;
+	font-size: 13px;
+	font-weight: 700;
+	color: #c5c6cb;
+	transition-duration: 300ms;
+	transition-property: all;
+	transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+  }
+  
+  .work .work-popup-close:hover {
+	color: #aaacb3;
+	transition-duration: 300ms;
+	transition-property: all;
+	transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+  }
+  /* end of Work */
+
+  /* Section Seperator */
+.section-seperator {
+	border-bottom: 1px solid #edf0f2;
+  }
+
+  /* Tag */
+.work .work-popup-tag {
+	margin: 0;
+  }
+  
+  .work .work-popup-tag-item {
+	padding: 0 2px;
+  }
+  
+  .work .work-popup-tag-link {
+	font-size: 13px;
+  }
+
+/*------------------------------------------------------------------
+  	[Content]
+------------------------------------------------------------------*/
+.content {
+	padding-top: 40px;
+	padding-bottom: 40px;
+  }
+  
+  .content-sm {
+	padding-top: 60px;
+	padding-bottom: 60px;
+  }
+  
+  .content-md {
+	padding-top: 80px;
+	padding-bottom: 80px;
+  }
+  
+  .content-lg {
+	padding-top: 100px;
+	padding-bottom: 100px;
+  }
+
+/*------------------------------------------------------------------
+    [Full Width]
+------------------------------------------------------------------*/
+.full-width {
+	width: 100%;
+	height: auto;
+  }
 
 	/* Footer */
 	.footer .footer-col {

@@ -648,8 +648,8 @@ input[type='checkbox'] {
 /*     Details 1     */
 /*********************/
 .basic-1 {
-	padding-top: 8.5rem;
-	padding-bottom: 10rem;
+	padding-top: 2rem;
+	padding-bottom: 2.5rem;
 }
 
 .basic-1 .text-container {
@@ -858,7 +858,7 @@ input[type='checkbox'] {
 /*     Strengths     */
 /*********************/
 .basic-5 {
-	padding-top: 10rem;
+	padding-top: 4rem;
 	padding-bottom: 2rem;
 }
 
@@ -883,8 +883,8 @@ input[type='checkbox'] {
 /*     Projects     */
 /********************/
 .slider-1 {
-	padding-top: 3rem;
-	padding-bottom: 6rem;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
 }
 
 .slider-1 .slider-container {

@@ -613,7 +613,7 @@ input[type='checkbox'] {
 }
 
 .header .services {
-	padding-top: 4.5rem;
+	padding-top: 2.5rem;
 	padding-bottom: 0.375rem;
 	background: linear-gradient(to bottom right, #4b00d7, #fa4c50);
 }

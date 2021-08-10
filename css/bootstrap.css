@@ -612,7 +612,7 @@ pre code {
   padding-left: 15px;
 }
 
-.col-lg2-6 {
+.col-lg2-6, .col-lg2-12 {
   position: relative;
   width: 100%;
   padding-right: 15px;

@@ -474,6 +474,10 @@ mark,
   max-width: 100%;
   height: auto;
 }
+.img-fluid2 {
+  max-width: 50%;
+  height: auto;
+}
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -607,6 +611,15 @@ pre code {
   padding-right: 15px;
   padding-left: 15px;
 }
+
+.col-lg2-6 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 70px;
+}
+
 
 .col {
   -ms-flex-preferred-size: 0;

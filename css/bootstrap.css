@@ -1066,6 +1066,63 @@ pre code {
   }
 }
 
+/* Show more Show less*/
+.show-hide-text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.show-hide-text a {
+  order: 2;
+}
+
+.show-hide-text p {
+  position: relative;
+  overflow: hidden;
+  max-height: 0px; // The Height of 0 rows
+}
+
+.show-hide-text p {
+  display: -webkit-box;
+  -webkit-line-clamp: 0; // 0 Rows of text
+  -webkit-box-orient: vertical;
+}
+
+.show-less {
+  display: none;
+}
+
+.show-less:target {
+  display: block;
+}
+
+.show-less:target ~ p {
+  display: block;
+  max-height: 100%;
+}
+
+.show-less:target + a {
+  display: none;
+}
+
+.show-less2 {
+  display: none;
+}
+
+.show-less2:target {
+  display: block;
+}
+
+.show-less2:target ~ p {
+  display: block;
+  max-height: 100%;
+}
+
+.show-less2:target + a {
+  display: none;
+}
+
+
 @media (min-width: 768px) {
   .col-md {
     -ms-flex-preferred-size: 0;

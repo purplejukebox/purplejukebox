@@ -1928,12 +1928,12 @@ a:hover.back-to-top {
 
 	/* Extra Pages */
 	.ex-cards-1 .card {
-		width: 336px;
+		width: 430px;
 	}
 
 	.ex-cards-1 .card:nth-of-type(3n+2) {
-		margin-right: 2.875rem;
-		margin-left: 2.875rem;
+		margin-right: 2.8rem;
+		margin-left: 2.8rem;
 	}
 	/* end of extra pages */
 }

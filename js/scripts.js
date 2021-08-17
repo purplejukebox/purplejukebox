@@ -70,7 +70,26 @@
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev'
-        }
+        },
+        on: {
+            init: function () {
+                console.log("swiper initialized");
+            }
+        },
+    });
+
+    var player;
+    function onYouTubeIframeAPIReady() {
+        player = new YT.Player("player", {
+            height: "250rem",
+            width: "100%",
+            videoId: "bfdT8KO305M",
+        });
+    }
+
+    textSlider.on("slideChange", function () {
+        console.log("slide changed");
+        player.pauseVideo();
     });
 
     /* Move Form Fields Label When User Types */
